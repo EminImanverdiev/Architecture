@@ -7,7 +7,7 @@ export default function Counter() {
             <div className="container">
                 <div className="row">
                     <h2>Numbers that showcase our success</h2>
-                    <div className="col-xxl-3">
+                    <div className="col-xxl-3 col-md-6 col-lg-4 col-xl-4">
                         <div className="counter-card">
                             <CiImageOn className='card-icon'/>
                             <h3>200+</h3>
@@ -15,7 +15,7 @@ export default function Counter() {
                         </div>
 
                     </div>
-                    <div className="col-xxl-3">
+                    <div className="col-xxl-3 col-md-6 col-lg-4 col-xl-4">
                         <div className="counter-card">
                             <CiImageOn className='card-icon'/>
                             <h3>200+</h3>
@@ -23,7 +23,7 @@ export default function Counter() {
                         </div>
 
                     </div>
-                    <div className="col-xxl-3">
+                    <div className="col-xxl-3 col-md-6 col-lg-4 col-xl-4">
                         <div className="counter-card">
                             <CiImageOn className='card-icon'/>
                             <h3>200+</h3>
@@ -31,7 +31,7 @@ export default function Counter() {
                         </div>
 
                     </div>
-                    <div className="col-xxl-3">
+                    <div className="col-xxl-3 col-md-6 col-lg-4 col-xl-4">
                         <div className="counter-card">
                             <CiImageOn className='card-icon'/>
                             <h3>200+</h3>

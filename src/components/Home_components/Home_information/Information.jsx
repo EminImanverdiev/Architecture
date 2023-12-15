@@ -9,7 +9,7 @@ export default function Information() {
       <p className='inf-text'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
       <div className="container">
         <div className="row">
-          <div className="col-xxl-3">
+          <div className="col-xxl-3 col-md-6 col-lg-6 col-xl-4">
             <div className="inf-box">
               <div className="box-left">
                 <FaRegUser className='box-user' />
@@ -20,7 +20,7 @@ export default function Information() {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3">
+          <div className="col-xxl-3 col-md-6 col-lg-6 col-xl-4">
             <div className="inf-box">
               <div className="box-left">
                 <FaRegUser className='box-user' />
@@ -31,7 +31,7 @@ export default function Information() {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3">
+          <div className="col-xxl-3 col-md-6 col-lg-6 col-xl-4">
             <div className="inf-box">
               <div className="box-left">
                 <FaRegUser className='box-user' />
@@ -42,7 +42,7 @@ export default function Information() {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3">
+          <div className="col-xxl-3 col-md-6 col-lg-6 col-xl-4">
             <div className="inf-box">
               <div className="box-left">
                 <FaRegUser className='box-user' />

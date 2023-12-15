@@ -10,7 +10,7 @@ export default function Service() {
             </div>
             <div className="container-fluid">
                 <div className="row">
-                <div className="col-xxl-4">
+                <div className="col-xxl-4 col-md-6 col-xl-6 col-lg-6">
                         <div className="service-item">
                             <h2>01</h2>
                             <h6>Web design</h6>
@@ -23,7 +23,7 @@ export default function Service() {
                         </div>
 
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-md-6 col-xl-6 col-lg-6">
                         <div className="service-item">
                             <h2>01</h2>
                             <h6>Web design</h6>
@@ -36,7 +36,7 @@ export default function Service() {
                         </div>
 
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-md-6 col-xl-6 col-lg-6">
                         <div className="service-item">
                             <h2>01</h2>
                             <h6>Web design</h6>

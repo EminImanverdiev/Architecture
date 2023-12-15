@@ -8,10 +8,10 @@ export default function HomeDetail() {
     <section id='home-detail'>
        <div className="container-flex">
           <div className="row">
-              <div className="col-xxl-6">
+              <div className="col-xxl-6 col-md-6">
                 <img src={detail} alt="" />
               </div>
-              <div className="col-xxl-6">
+              <div className="col-xxl-6 col-md-6">
               <div className="detail-box">
                             <div className="box-content">
                                 <h2>Detailed Plan</h2>

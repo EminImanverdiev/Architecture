@@ -11,19 +11,19 @@ export default function HomeService() {
            <h3>Services</h3>
          </div>
          <div className="row">
-        <div className="col-xxl-4">
+        <div className="col-xxl-4 col-md-6 col-lg-6 col-xl-6">
              <div className="service-box">
                  <div className="box-picture" style={{backgroundImage:`url(${textimg})`}}>
                  </div>
              </div>
         </div>
-        <div className="col-xxl-4">
+        <div className="col-xxl-4 col-md-6 col-lg-6 col-xl-6">
              <div className="service-box">
                  <div className="box-picture" style={{backgroundImage:`url(${textimg})`}}>
                  </div>
              </div>
         </div>
-        <div className="col-xxl-4">
+        <div className="col-xxl-4 col-md-6 col-lg-6 col-xl-6">
              <div className="service-box">
                  <div className="box-picture" style={{backgroundImage:`url(${textimg})`}}>
                  </div>

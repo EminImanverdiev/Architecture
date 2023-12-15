@@ -19,3 +19,6 @@ a{
     color: rgba(109, 117, 143, 1);
     font-weight: 900 !important;
 }
+#about-header .row .col-xxl-5{
+    background-position: center !important;
+}

@@ -10,42 +10,42 @@ export default function ServiceSolution() {
             </div>
             <div className="container-fluid">
         <div className="row">
-            <div className="col-xxl-4">
+            <div className="col-xxl-4 col-md-6 col-xl-4">
                 <div className="project-box">
                     <img src={frame} alt="" />
                     <h5>Heading</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-            <div className="col-xxl-4">
+            <div className="col-xxl-4 col-md-6 col-xl-4">
                 <div className="project-box">
                     <img src={frame} alt="" />
                     <h5>Heading</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-            <div className="col-xxl-4">
+            <div className="col-xxl-4 col-md-6 col-xl-4">
                 <div className="project-box">
                     <img src={frame} alt="" />
                     <h5>Heading</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-            <div className="col-xxl-4">
+            <div className="col-xxl-4 col-md-6 col-xl-4">
                 <div className="project-box">
                     <img src={frame} alt="" />
                     <h5>Heading</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-            <div className="col-xxl-4">
+            <div className="col-xxl-4 col-md-6 col-xl-4">
                 <div className="project-box">
                     <img src={frame} alt="" />
                     <h5>Heading</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-            <div className="col-xxl-4">
+            <div className="col-xxl-4 col-md-6 col-xl-4">
                 <div className="project-box">
                     <img src={frame} alt="" />
                     <h5>Heading</h5>

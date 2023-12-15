@@ -15,7 +15,7 @@ export default function Project() {
                 <h3 className='proj-title'>Projects</h3>
             </div>
                 <div className="row">
-                    <div className="col-xxl-6">
+                    <div className="col-xxl-6 col-xl-6">
                         <div className="project-box">
                             <div className="box-picture">
                                 <h2>Renovate your home</h2>
@@ -24,7 +24,7 @@ export default function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xxl-6">
+                    <div className="col-xxl-6 col-xl-6">
                         <img src={renovate} alt="" />
                     </div>
                 </div>
