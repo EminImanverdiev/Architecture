@@ -1,0 +1,54 @@
+nav .offcanvas .offcanvas-body{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: white;
+}
+nav .offcanvas .offcanvas-body .navbar-nav{
+    text-align: center !important;
+    margin: auto;
+}
+nav .container-fluid{
+    background-color: white;
+}
+nav .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(60, 67, 74, 1) !important;
+    font-weight: 600;
+}
+nav .navbar-brand span{
+    font-size: 15px;
+    font-weight: 600;
+}
+nav .navbar-brand img{
+    height: 80px;
+    object-fit: contain;
+}
+.navbar {
+    --bs-navbar-padding-y: 0 !important;
+}
+nav form input{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding-left: 25px !important;
+    border-bottom: 1px solid rgba(124, 135, 148, 1) !important;
+}
+nav form input::placeholder{
+    font-size: 15px;
+}
+nav form{
+    position: relative;
+    cursor: pointer;
+}
+nav form .form-search{
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
+    color: rgba(60, 67, 74, 1);
+}

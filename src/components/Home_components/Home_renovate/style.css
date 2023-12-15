@@ -1,0 +1,59 @@
+#home-renovate {
+    width: 90%!important;
+    margin: 50px auto;
+}
+#home-renovate .renovate-box{
+    width: 50%;
+    height: 240px;
+    margin: auto;
+    text-align: left !important;
+    border: 1px solid rgba(225, 228, 237, 1);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 4px 0px rgba(9, 10, 15, 0.08);
+    border-radius: 10px;
+    margin: 20% auto;
+    position: relative;
+}
+#home-renovate .renovate-box .box-picture {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    right: -10%;
+   background: rgba(230, 230, 230, 1);
+    top: 15%;
+    padding: 10px;
+}
+#home-renovate .renovate-box .box-picture h2{
+    font-family: 'Work Sans', sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+}
+#home-renovate .renovate-box .box-picture p{
+    font-family: 'Work Sans', sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: rgba(75, 85, 99, 1);
+margin: 15px 0px;
+}
+#home-renovate .renovate-box .box-picture a,#home-detail .detail-box .box-content a{
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+padding: 12px 25px;
+background-color: black;
+color: rgba(255, 255, 255, 1);
+font-size: 14px;
+display: inline-block;
+margin: 5px 0px;
+transition: 300ms;
+}
+#home-renovate .renovate-box .box-picture a:hover,#home-detail .detail-box .box-content a:hover{
+    background: rgba(230, 230, 230, 1);
+    color: black;
+}

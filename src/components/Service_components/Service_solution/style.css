@@ -1,0 +1,56 @@
+#service-solution{
+    width: 90%;
+    margin: 20px auto;
+}
+#service-solution .section-title{
+    display: flex;
+    width: 50%;
+margin: 100px 0px;
+
+}
+#service-solution .section-title hr{
+    border: none;
+    height: 2px;
+    width: 90px;
+    margin-right: 10px;
+    background-color: rgba(109, 117, 143, 1);
+}
+.section-title h3{
+font-family: 'Poppins','sans-serif';
+font-size: 30px;
+font-weight: 800;
+line-height: 36px;
+color: rgba(109, 117, 143, 1);
+}
+#service-solution .container-fluid{
+    width: 90%;
+    margin: 100px auto;
+}
+#service-solution .container-fluid img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+#service-solution .container-fluid h5{
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: -0.02em;
+color: rgba(166, 129, 87, 1);
+margin: 10px 0px;
+
+}
+#service-solution .container-fluid 
+.col-xxl-4 .project-box:hover{
+cursor: pointer;
+}
+#service-solution .container-fluid p{
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+color: rgba(166, 129, 87, 1);
+
+}
+#service-solution .container-fluid .col-xxl-4{
+    margin: 40px 0px;
+}

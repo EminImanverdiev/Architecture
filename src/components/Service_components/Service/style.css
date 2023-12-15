@@ -1,0 +1,71 @@
+#service .service-title{
+    text-align: center;
+}
+#service .service-title h1{
+font-family: 'Inter',sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+color: rgba(109, 117, 143, 1);
+margin-top: 50px;
+}
+#service .service-title p{
+    width: 30%;
+    margin: 10px auto;
+font-family: 'Inter',sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: rgba(109, 117, 143, 1);
+}
+#service .container-fluid{
+ width: 80%;
+ margin: auto;
+ padding: 30px 0px;
+}
+#service .container-fluid .service-item{
+    width: 80%;
+    border: 1px solid rgba(225, 228, 237, 1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 500ms;
+    cursor: pointer;
+}
+#service .container-fluid .service-item:hover{
+    background-color: rgba(109, 117, 143, 1);
+    color: white !important;
+}
+#service .container-fluid .service-item:hover h6,#service .container-fluid .service-item:hover .link{
+    color: white;
+}
+#service .container-fluid h2{
+    font-family: 'Inter',sans-serif;
+    font-size: 48px;
+font-weight: 600;
+line-height: 48px;
+color: rgba(180, 185, 201, 1);
+
+}
+#service .container-fluid h6{
+font-family: 'Inter',sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+color: rgba(109, 117, 143, 1);
+
+}
+#service .container-fluid p{
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+
+}
+#service .container-fluid  .link{
+    display: inline-block;
+    color: rgb(53, 57, 74);
+    font-weight: 800;
+    margin-right: 10px;
+}
+#service .container-fluid  .link .item-icon{
+    border: 1.5px solid rgba(109, 117, 143, 1);
+    color: rgba(109, 117, 143, 1);}

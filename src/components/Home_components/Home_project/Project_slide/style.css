@@ -1,0 +1,8 @@
+#project-slide .container-fluid{
+    width: 90%;
+    margin: 50px auto !important;
+}
+#project-slide .container-fluid .slide-box img{
+    width: 100% !important;
+    height: 300px;
+}

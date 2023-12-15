@@ -1,0 +1,37 @@
+#fag-question .accordion,#fag-question .question-title{
+    width: 65%;
+    margin: 30px auto;
+}
+#fag-question .question-title{
+    background: linear-gradient(0deg, #F1F3F7, #F1F3F7),
+    linear-gradient(0deg, #E1E4ED, #E1E4ED);
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px 15px 5px 20px;
+    position: relative;
+}
+#fag-question .question-title .close-icon{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+#fag-question {
+    text-align: center;
+    padding: 30px 0px;
+}
+#fag-question h1{
+    color: rgba(109, 117, 143, 1);
+    margin: 40px 0px;
+
+}
+.accordion-item{
+    margin: 30px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.accordion-button:focus,.accordion-button:not(.collapsed){
+   box-shadow:  0 0 0 0.25rem rgba(133, 136, 141, 0.25);
+}
+.accordion-header{
+    border-radius: 20px;
+}
