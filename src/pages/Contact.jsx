@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+import Navbar from '../components/Layout/Navbar/Navbar'
 import HomeContact from '../components/Home_components/Home_contact/HomeContact'
-import Footer from '../components/Footer/Footer'
+import Footer from '../components/Layout/Footer/Footer'
 
 export default function Contact() {
   return (

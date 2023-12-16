@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/logo/logo.jpg'
+import logo from '../../../assets/logo/logo.jpg'
 import './style.css'
 import { IoIosSearch } from "react-icons/io";
 import { Link } from 'react-router-dom';

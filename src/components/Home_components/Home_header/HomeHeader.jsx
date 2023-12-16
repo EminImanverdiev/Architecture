@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 import Ellipse from '../../../assets/images/Ellipse 1.png'
-import Navbar from '../../Navbar/Navbar'
+import Navbar from '../../Layout/Navbar/Navbar'
 export default function HomeHeader() {
   return (
     <header id='home-header'>
