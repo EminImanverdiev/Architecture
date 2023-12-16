@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 import { IoMdClose } from "react-icons/io";
 export default function FagQuestion() {
+
+    const [showTitle, setShowTitle] = useState(true);
+    const CloseTitle = () => {
+        setShowTitle(!showTitle);
+    }
     return (
         <section id='fag-question'>
             <h1>Frequently Asked Questions</h1>
-             <div className="question-title">
-                <IoMdClose className='close-icon'/>
-                <h6><strong>What is the process when ordering architectural design services?</strong> </h6>
+            {showTitle && <div className="question-title">
+                <IoMdClose className='close-icon' onClick={CloseTitle}/>
+                <h6 className='title'><strong>What is the process when ordering architectural design services?</strong> </h6>
                 <p>It starts with an introductory consultation where we discuss your ideas, requirements and budget. Then we develop a concept, provide you with options and make adjustments until your full approval.</p>
-             </div>
+            </div>}
+
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingOne">

@@ -33,6 +33,9 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/fag">Fag</Link>
+                            </li>
                         </ul>
                         <form className="d-flex box-search-item" role="search">
                             <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>

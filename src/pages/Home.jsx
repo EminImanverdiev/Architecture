@@ -18,7 +18,7 @@ export default function Home() {
         <Renovate/>
         <HomeDetail/>
         <Project/>
-        {/* <Information/> */}
+        <Information/>
         <HomeContact/>
         <Footer/>
     </div>

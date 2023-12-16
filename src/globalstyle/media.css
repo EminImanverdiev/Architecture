@@ -126,6 +126,24 @@
         font-size: 20px;
         line-height: 28px;
       }
+      #about-solution .col-xxl-9{
+        width: 90%;
+        height: 70%;
+      }
+      .solution-container{
+        width: 100%;
+        left: 0%;
+        top: 30%;
+      }
+      #fag-question .accordion, #fag-question .question-title{
+        width: 90%;
+      }
+      #fag-question .question-title .close-icon{
+        right: 10px;
+        top: 10px;
+      }
+  
+      
 }
 @media(min-width:768px) and (max-width:992px){
     .box-search-item{
@@ -197,12 +215,22 @@
         line-height: 20px;
         font-size: 18px;
       }
+      #about-solution .col-xxl-9{
+        width: 60%;
+        height: 70%;
+      }
+      .solution-container{
+        width: 90%;
+        left: -20%;
+        top: 15%;
+      }
+      #fag-question .question-title h6{
+        width: 90% !important;
+      }
 }
 
 @media(min-width:992px) and (max-width:1200px){
-    .box-search-item{
-        display: none !important;
-    }
+   
     #project-slide .container-fluid .slide-box img{
         margin: 20px 0px;
       }
@@ -267,11 +295,18 @@
         line-height: 30px;
         font-size: 18px;
       }
+      #about-solution .col-xxl-9{
+        width: 50%;
+        height: 70%;
+      }
+      .solution-container{
+        width: 80%;
+        left: -20%;
+        top: 15%;
+      }
 }
 @media(min-width:1200px) and (max-width:1400px){
-    .box-search-item{
-        display: none !important;
-    }
+ 
     #home-header .home-header-content h2{
         font-size: 45px;
         line-height: 40px;
@@ -335,11 +370,18 @@
         line-height: 30px;
         font-size: 24px;
       }
+      #about-solution .col-xxl-9{
+        width: 50%;
+        height: 70%;
+      }
+      .solution-container{
+        width: 70%;
+        left: -20%;
+        top: 15%;
+      }
 }   
 @media(min-width:1400px){
-    .box-search-item{
-        display: none !important;
-    }
+ 
     #home-header .home-header-content h2{
         font-size: 45px;
         line-height: 40px;
@@ -375,10 +417,28 @@
         margin: 20px 0px;
         padding: 20px 30px;
       }
+      #about-solution .col-xxl-9{
+        width: 50%;
+        height: 90%;
+      }
+      .solution-container{
+        width: 60%;
+        left: -40%;
+        top: 15%;
+      }
       
 }   
 @media(min-width:1600px){
     #home-project .project-box{
         width: 50%;
+    }
+    #about-solution .col-xxl-9{
+      width: 50%;
+      height: 90%;
+    }
+    .solution-container{
+      width: 50%;
+      left: -30%;
+      top: 15%;
     }
 }

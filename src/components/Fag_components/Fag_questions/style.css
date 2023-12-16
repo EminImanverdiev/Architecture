@@ -35,3 +35,10 @@
 .accordion-header{
     border-radius: 20px;
 }
+.accordion-button:focus, .accordion-button:not(.collapsed),.accordion-button:focus, .accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+    background: linear-gradient(0deg, #F1F3F7, #F1F3F7),
+    linear-gradient(0deg, #E1E4ED, #E1E4ED);
+}
